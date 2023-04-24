@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "es6",
+    "declaration": false,
+    "module": "commonjs",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "lib": [
+      "es5",
+      "dom",
+      "es2017"
+    ],
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "noEmitOnError": true,
+  },
+  "exclude": [
+    "node_modules",
+    ".git",
+    ".vs",
+    "public"
+  ],
+  "include": [
+    ".",
+    "./global.d.ts"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}
